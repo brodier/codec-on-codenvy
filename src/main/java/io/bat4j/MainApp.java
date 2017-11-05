@@ -14,7 +14,7 @@ public class MainApp {
     public static void main(String[] args) {
         System.out.println("Hello world");
         int n = Integer.parseInt(args[0]);
-        BigInteger cardS = new BigInteger();
+        long cardS = 0;
         
         for(int i = 0; i < n - 1; i++) {
             for(int j = 0; j < n - 1; j++) {
